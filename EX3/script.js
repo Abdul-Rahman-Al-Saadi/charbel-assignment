@@ -17,7 +17,7 @@ for (let i=0; i<=x; i++) {
     p.innerText = "*";
 
     let span = document.createElement("span");
-    for (let j=0; j<=i-1; j++) {
+    for (let j=1; j<=(i*2-1); j++) {
         span.innerText += "|";
     }
 
